@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<annotation>
+  <folder>images</folder>
+  <filename>frame_1736971505.jpg</filename>
+  <path>/home/diego/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/marfrig/images/frame_1736971505.jpg</path>
+  <size>
+    <width>1920</width>
+    <height>1280</height>
+    <depth>3</depth>
+  </size>
+  <object>
+    <name>porta_fechada</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>642</xmin>
+      <ymin>150</ymin>
+      <xmax>1051</xmax>
+      <ymax>852</ymax>
+    </bndbox>
+  </object>
+  <object>
+    <name>porta_fechada</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>1528</xmin>
+      <ymin>164</ymin>
+      <xmax>1871</xmax>
+      <ymax>820</ymax>
+    </bndbox>
+  </object>
+</annotation>

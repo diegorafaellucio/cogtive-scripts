@@ -1,0 +1,7 @@
+names:
+  0: coca_cola
+  1: papel_higienico
+  2: sidra
+path: /home/diego-rafael-lucio/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/DiaGroup
+train: train.txt
+val: val.txt

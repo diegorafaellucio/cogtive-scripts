@@ -1,0 +1,11 @@
+./images/papelhgn1.png
+./images/coca_cola4.png
+./images/Coca cola Dez-1.png
+./images/Papel Higiênico 29.png
+./images/Papel Higiênico 23.png
+./images/Papel Higiênico 6.png
+./images/Coca cola 31.png
+./images/Coca cola 26.png
+./images/Coca cola 25.png
+./images/Coca cola 21.png
+./images/Coca cola 2.png

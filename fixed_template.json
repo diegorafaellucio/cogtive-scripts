@@ -1,0 +1,48 @@
+{
+  "clientId": "betterbeef",
+  "frameId": "fdf7d57b-981e-476f-8353-a2326928db3b",
+  "frameTimestamp": "2025-04-09T01:23:49.3328139Z",
+  "models": [
+    {
+      "modelName": "betterbeef",
+      "classLabels": ["meat", "person"]
+    }
+  ],
+  "workstations": [
+    {
+      "workstationName": "WORKSTATION2",
+      "regionsOfInterest": [
+        {
+          "regionName": "AREA1",
+          "polygonCoordinates": [
+            [560, 0], [990, 0], [990, 420], [560, 420]
+          ],
+          "detectionRules": [
+            {
+              "models": [
+                {
+                  "modelName": "betterbeef",
+                  "classLabels": ["meat"]
+                }
+              ],
+              "checkInRegion": true,
+              "enableTracking": true,
+              "instantCount": false
+            },
+            {
+              "models": [
+                {
+                  "modelName": "betterbeef",
+                  "classLabels": ["person"]
+                }
+              ],
+              "checkInRegion": true,
+              "enableTracking": false,
+              "instantCount": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

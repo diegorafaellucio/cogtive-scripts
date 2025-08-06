@@ -1,0 +1,8 @@
+names:
+  0: person
+  1: porta_aberta
+  2: porta_fechada
+  3: moldes
+path: /home/diego/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/pupee
+train: train.txt
+val: val.txt

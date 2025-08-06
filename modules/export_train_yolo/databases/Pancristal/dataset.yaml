@@ -1,0 +1,19 @@
+names:
+  0: baguete
+  1: baguete_maior
+  2: bisnaguinha
+  3: bisnaguinha_menor
+  4: pao_quadrado
+  5: pao_de_forma
+  6: pao_frances
+  7: pao_frances_gd
+  8: pao_frances_pq
+  9: pao_gd_especific
+  10: pao_hotdog
+  11: pao_retangular
+  12: pao_retangular_gd
+  13: pao_quadrado_gd
+  14: pao_doce_450
+path: /home/diego-rafael-lucio/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/Pancristal
+train: train.txt
+val: val.txt

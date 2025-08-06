@@ -1,0 +1,255 @@
+{
+  "client_id": "betterbeef",
+  "frame_id": "16f1844e-cc6e-409e-a946-443a03e31c37",
+  "tracker_response": {
+    "status": "success",
+    "clientId": "betterbeef",
+    "frameId": "16f1844e-cc6e-409e-a946-443a03e31c37",
+    "frameTimestamp": "2025-05-16T07:52:22.139Z",
+    "processTimestamp": "2025-05-16T10:52:23.198538Z",
+    "detections": [
+      {
+        "classLabel": "MEAT",
+        "startTimestamp": "2025-05-15T17:51:44.957Z",
+        "endTimestamp": "2025-05-16T07:52:22.139Z",
+        "counterSince": "2025-05-16T07:52:22.139Z",
+        "workstations": [
+          {
+            "workstationName": "WORKSTATION2",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "workstationName": "WORKSTATION3",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "workstationName": "WORKSTATION7",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trackingIds": [
+          "0"
+        ]
+      },
+      {
+        "classLabel": "PERSON",
+        "startTimestamp": "2025-05-15T17:51:44.957Z",
+        "endTimestamp": "2025-05-16T07:52:22.139Z",
+        "counterSince": "2025-05-16T07:52:22.139Z",
+        "workstations": [
+          {
+            "workstationName": "WORKSTATION2",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "workstationName": "WORKSTATION5",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "workstationName": "WORKSTATION7",
+            "modelName": "BETTERBEEF",
+            "regionsOfInterests": [
+              {
+                "regionName": "AREA1",
+                "modes": [
+                  {
+                    "key": "instantaneous",
+                    "Value": 0
+                  },
+                  {
+                    "key": "accumulated",
+                    "Value": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "trackingIds": [
+          "3"
+        ]
+      }
+    ]
+  },
+  "objectsInFrame": [
+    {
+      "classLabel": "MEAT",
+      "confidence": 0.9171515107154846,
+      "workstationName": "WORKSTATION1",
+      "regionName": "AREA1",
+      "boundingBox": {
+        "x": 1093,
+        "y": 473,
+        "width": 142,
+        "height": 130
+      },
+      "modelName": "BETTERBEEF",
+      "trackingId": "0",
+      "trackingAge": 0,
+      "trackingEstimatedBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5
+      },
+      "trackingInfo": {
+        "intersectionScore": 0.0,
+        "isInROI": false,
+        "timeInROI": 0
+      }
+    },
+    {
+      "classLabel": "MEAT",
+      "confidence": 0.9171515107154846,
+      "workstationName": "WORKSTATION2",
+      "regionName": "AREA1",
+      "boundingBox": {
+        "x": 1093,
+        "y": 473,
+        "width": 142,
+        "height": 130
+      },
+      "modelName": "BETTERBEEF",
+      "trackingId": "0",
+      "trackingAge": 0,
+      "trackingEstimatedBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5
+      },
+      "trackingInfo": {
+        "intersectionScore": 0.0,
+        "isInROI": false,
+        "timeInROI": 0
+      }
+    },
+    {
+      "classLabel": "PERSON",
+      "confidence": 0.9091466665267944,
+      "workstationName": "WORKSTATION1",
+      "regionName": "AREA1",
+      "boundingBox": {
+        "x": 1283,
+        "y": 981,
+        "width": 112,
+        "height": 99
+      },
+      "modelName": "BETTERBEEF",
+      "trackingId": "3",
+      "trackingAge": 0,
+      "trackingEstimatedBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5
+      },
+      "trackingInfo": {
+        "intersectionScore": 0.0,
+        "isInROI": false,
+        "timeInROI": 0
+      }
+    },
+    {
+      "classLabel": "PERSON",
+      "confidence": 0.9091466665267944,
+      "workstationName": "WORKSTATION2",
+      "regionName": "AREA1",
+      "boundingBox": {
+        "x": 1283,
+        "y": 981,
+        "width": 112,
+        "height": 99
+      },
+      "modelName": "BETTERBEEF",
+      "trackingId": "3",
+      "trackingAge": 0,
+      "trackingEstimatedBoundingBox": {
+        "x": 0,
+        "y": 0,
+        "width": 5,
+        "height": 5
+      },
+      "trackingInfo": {
+        "intersectionScore": 0.0,
+        "isInROI": false,
+        "timeInROI": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+names:
+  0: moldes
+  1: pessoas
+  2: cavaletes
+path: /home/diego-rafael-lucio/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/UnionMoldes
+train: train.txt
+val: val.txt

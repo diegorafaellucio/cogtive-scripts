@@ -1,0 +1,914 @@
+[
+  {
+    'from_name': 'label',
+    'id': 'result_1',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.9101443886756897,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 16.502313967104314,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 359.01399314436503,
+      'width': 13.84469191233317,
+      'x': 61.910210450490304,
+      'y': 8.73715224089446
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_2',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.907597541809082,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 13.013822767469618,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 358.7937676751214,
+      'width': 7.1410346031188965,
+      'x': 35.428210496902466,
+      'y': 1.016507325349031
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_3',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.9024718999862671,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 12.1754229510272,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 359.58156465551804,
+      'width': 5.8769627412160235,
+      'x': 28.793817162513733,
+      'y': 87.92789317943432
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_4',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8991826772689819,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 20.61761644151476,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 359.9659037590293,
+      'width': 14.170169830322266,
+      'x': 33.39152971903483,
+      'y': 0.21437962849934777
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_5',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8975429534912109,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 10.183048248291016,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 358.721256786067,
+      'width': 5.32848596572876,
+      'x': 13.09304436047872,
+      'y': 19.401624114425093
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_6',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8953613042831421,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 13.28444728144893,
+      'rectanglelabels': [
+        'scrap'
+      ],
+      'rotation': 359.6188258987614,
+      'width': 7.910093466440836,
+      'x': 74.67730164527893,
+      'y': 22.661865375660085
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_7',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8911095857620239,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 11.391836802164713,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 359.8575103277629,
+      'width': 4.755376974741618,
+      'x': 94.91332332293193,
+      'y': 13.411287025169091
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_8',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8906726241111755,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 15.601870218912762,
+      'rectanglelabels': [
+        'trash'
+      ],
+      'rotation': 358.11512584216104,
+      'width': 6.17172638575236,
+      'x': 53.50667754809062,
+      'y': 3.9843976056134256
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_9',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8866079449653625,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 20.66552903917101,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 358.8072376619383,
+      'width': 16.37818495432536,
+      'x': 12.472743193308512,
+      'y': 6.7538777104130485
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_10',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8814557194709778,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.013341974329066,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 270.10796229573225,
+      'width': 6.194804509480794,
+      'x': 7.308937708536785,
+      'y': 75.88308934812193
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_11',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8760347366333008,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 12.48639424641927,
+      'rectanglelabels': [
+        'trash'
+      ],
+      'rotation': 358.5462480229025,
+      'width': 6.239384810129802,
+      'x': 73.14623395601909,
+      'y': 3.155359338831019
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_12',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8729841709136963,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.10594728257921,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 358.88998924571445,
+      'width': 3.3526456356048584,
+      'x': 86.53313457965851,
+      'y': 45.24208386739095
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_13',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8673375844955444,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 20.779368082682293,
+      'rectanglelabels': [
+        'full_tray'
+      ],
+      'rotation': 358.88220005529627,
+      'width': 9.644679228464764,
+      'x': 71.56345725059509,
+      'y': 3.186285230848524
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_14',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8626715540885925,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 16.54581423158999,
+      'rectanglelabels': [
+        'full_tray'
+      ],
+      'rotation': 359.4467836521721,
+      'width': 13.360641797383627,
+      'x': 45.654712518056236,
+      'y': 4.259002120406537
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_15',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8596974611282349,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 27.234440556278933,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 271.63481010355355,
+      'width': 9.352271556854248,
+      'x': 32.65710155169169,
+      'y': 78.81368001302083
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_16',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8565375208854675,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 6.604956874140987,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.0290941013861,
+      'width': 5.661022663116455,
+      'x': 78.1247587998708,
+      'y': 44.14732579831724
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_17',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8479081392288208,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 13.723470899793838,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 357.91107949023564,
+      'width': 11.197153727213543,
+      'x': 0.7032732168833409,
+      'y': 13.162843916151257
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_18',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8434640765190125,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 12.772787588614005,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 359.8582506162153,
+      'width': 6.528196732203166,
+      'x': 69.1014208396276,
+      'y': 11.381520871762875
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_19',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8159465193748474,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 10.653168007179543,
+      'rectanglelabels': [
+        'scrap'
+      ],
+      'rotation': 358.56479284027273,
+      'width': 4.614572922388713,
+      'x': 11.789267659187317,
+      'y': 28.619940722430194
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_20',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8139628171920776,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 28.702064796730326,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 270.2612727218423,
+      'width': 10.109118620554607,
+      'x': 10.376436312993368,
+      'y': 70.83241780598959
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_21',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8137252926826477,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 32.54341408058449,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 270.1538406763872,
+      'width': 7.6621246337890625,
+      'x': 86.25789006551106,
+      'y': 2.5184391163013586
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_22',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.8100072145462036,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 17.885665893554688,
+      'rectanglelabels': [
+        'scrap'
+      ],
+      'rotation': 270.129969165238,
+      'width': 6.744630336761475,
+      'x': 42.20237851142883,
+      'y': 69.41362027768736
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_23',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7915571928024292,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.019059075249567,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.3549018663838,
+      'width': 3.322498202323913,
+      'x': 94.30180301268895,
+      'y': 46.1319782115795
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_24',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7895674705505371,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 14.037249529803242,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.3531592567465,
+      'width': 3.7863314151763916,
+      'x': 11.644114057223002,
+      'y': 55.20354094328704
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_25',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7799451351165771,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 15.242732012713397,
+      'rectanglelabels': [
+        'full_tray'
+      ],
+      'rotation': 358.9527206912596,
+      'width': 8.083650271097818,
+      'x': 69.97168143590292,
+      'y': 85.18004028885454
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_26',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.77582848072052,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 13.482540271900318,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 358.99935359437444,
+      'width': 3.8116848468780518,
+      'x': 73.83478740851085,
+      'y': 51.83681417394567
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_27',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7554913759231567,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 8.24467906245479,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.2173204545333,
+      'width': 6.858731905619303,
+      'x': 16.493477026621502,
+      'y': 69.4230627130579
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_28',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7499138712882996,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.890815593578198,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.63337459763545,
+      'width': 10.37505547205607,
+      'x': 57.74994174639383,
+      'y': 28.98535233956796
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_29',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7464098930358887,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 8.810637438738787,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.7648215882124,
+      'width': 10.172913869222006,
+      'x': 79.77941195170084,
+      'y': 29.24668594642922
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_30',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7409404516220093,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 15.492750097204139,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.5068794942068,
+      'width': 4.3493664264678955,
+      'x': 37.898730635643005,
+      'y': 26.21958202785916
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_31',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7386031746864319,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.486476050482857,
+      'rectanglelabels': [
+        'trash'
+      ],
+      'rotation': 359.2844080709295,
+      'width': 5.676951805750529,
+      'x': 25.521766940752666,
+      'y': 84.41434118482802
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_32',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7365027666091919,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.612893705014828,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.0515312728096,
+      'width': 6.867317358652751,
+      'x': 31.912970145543415,
+      'y': 43.47826745775011
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_33',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7350417375564575,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 15.540522822627315,
+      'rectanglelabels': [
+        'empty_tray'
+      ],
+      'rotation': 270.2426263054082,
+      'width': 9.071797529856363,
+      'x': 24.85273877779643,
+      'y': 84.42521837022569
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_34',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7309415340423584,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 6.569989522298177,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.03944183797864,
+      'width': 6.799771785736083,
+      'x': 88.09386054674785,
+      'y': 54.105311499701614
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_35',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.7008114457130432,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.720665401882595,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.8941600289517,
+      'width': 2.9404443502426147,
+      'x': 74.45465753475825,
+      'y': 42.630606404057254
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_36',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.6853429079055786,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 11.429415102358217,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 358.01979475748107,
+      'width': 8.027863502502441,
+      'x': 0.10743498802185059,
+      'y': 73.29224480523004
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_37',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.6830822825431824,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 9.22367873015227,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.5295029526322,
+      'width': 3.101873795191447,
+      'x': 11.072695851325989,
+      'y': 44.600790165088796
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_38',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.679804265499115,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.972908020019531,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.8471194489208,
+      'width': 7.893895308176677,
+      'x': 37.485957543055214,
+      'y': 68.74511789392542
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_39',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.658037543296814,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 10.284391332555701,
+      'rectanglelabels': [
+        'helmet'
+      ],
+      'rotation': 358.86599959363696,
+      'width': 2.353010972340902,
+      'x': 0,
+      'y': 11.977744632297092
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_40',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.6372016668319702,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.508260938856337,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.2746018936329,
+      'width': 3.3570746580759683,
+      'x': 12.2576500972112,
+      'y': 40.92514673868815
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_41',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.5620697140693665,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.480085867422598,
+      'rectanglelabels': [
+        'scrap'
+      ],
+      'rotation': 358.97752580389096,
+      'width': 3.5802419980367026,
+      'x': 24.5418918132782,
+      'y': 21.17513797901295
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_42',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.5478975772857666,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.462930326108578,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 359.4136959213159,
+      'width': 3.111587166786194,
+      'x': 82.92467643817265,
+      'y': 51.570110674257634
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_43',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.408543199300766,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 7.2491391499837246,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.0394896493028,
+      'width': 3.9295931657155356,
+      'x': 19.93734816710154,
+      'y': 26.316477810895
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_44',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.34597915410995483,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 12.047867951569733,
+      'rectanglelabels': [
+        'person'
+      ],
+      'rotation': 358.219179505298,
+      'width': 4.917327562967936,
+      'x': 0,
+      'y': 88.67229744240089
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_45',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.33247652649879456,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 8.485132146764684,
+      'rectanglelabels': [
+        'scrap'
+      ],
+      'rotation': 358.7620693007919,
+      'width': 3.4148693084716797,
+      'x': 2.9807889461517334,
+      'y': 31.515578163994682
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_46',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.3193487524986267,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 13.787693447536892,
+      'rectanglelabels': [
+        'full_tray'
+      ],
+      'rotation': 359.3514364525145,
+      'width': 8.00058126449585,
+      'x': 25.34137527147929,
+      'y': 84.36884067676685
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_47',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.3134048879146576,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 12.957444367585358,
+      'rectanglelabels': [
+        'meat'
+      ],
+      'rotation': 270.59161482105003,
+      'width': 3.8568027814229326,
+      'x': 37.232994635899864,
+      'y': 17.54520133689598
+    }
+  },
+  {
+    'from_name': 'label',
+    'id': 'result_48',
+    'original_height': 1080,
+    'original_width': 1920,
+    'score': 0.28976738452911377,
+    'to_name': 'image',
+    'type': 'rectanglelabels',
+    'value': {
+      'height': 11.786698235405815,
+      'rectanglelabels': [
+        'empty_tray'
+      ],
+      'rotation': 359.0137033949338,
+      'width': 8.030869960784912,
+      'x': 0.10452469189961722,
+      'y': 73.11089056509512
+    }
+  }
+]

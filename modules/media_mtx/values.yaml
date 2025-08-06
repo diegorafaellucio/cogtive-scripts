@@ -1,0 +1,35 @@
+replicaCount: 1
+
+image:
+  repository: cgtvhydra.azurecr.io/cgvt-mediamtx
+  tag: 32ca26531765e11f0c63715c85a618452586b686
+
+env:
+  - name: MTX_PROTOCOLS
+    value: "tcp"
+
+resources:
+  limits:
+    cpu: 500m
+    memory: 1Gi
+  requests:
+    cpu: 250m
+    memory: 512Mi
+
+volumeMounts:
+  - name: mediamtx
+    mountPath: "/mediamtx.yml"
+    readOnly: true
+    subPath: "mediamtx.yml"
+
+volumes:
+  - name: mediamtx
+    configMap:
+      name: mediamtx
+
+hpa:
+  enabled: false
+
+livenessProbe: false
+
+readinessProbe: false

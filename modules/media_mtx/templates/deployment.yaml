@@ -1,0 +1,68 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+    chart: {{ .Chart.Version }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: {{ .Chart.Name }}
+      release: {{ .Release.Name }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Chart.Name }}
+        release: {{ .Release.Name }}
+      annotations:
+        checksum/config: {{ include (print $.Template.BasePath "/configmap.yaml") . | sha256sum }}
+    spec:      
+      imagePullSecrets:
+      - name: docker-secret
+      containers:
+        - name: {{ .Chart.Name }}
+          image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          {{- if .Values.livenessProbe }}
+          livenessProbe:
+          {{- toYaml .Values.livenessProbe | trim | nindent 12 -}}
+          {{- end }}
+          {{- if .Values.readinessProbe }}
+          readinessProbe:
+          {{- toYaml .Values.readinessProbe | trim | nindent 12 -}}
+          {{- end }}
+          ports:
+            - name: tcp-9997
+              containerPort: 9997
+              protocol: TCP
+            - name: tcp-8554
+              containerPort: 8554
+              protocol: TCP
+            - name: tcp-1935
+              containerPort: 1935
+              protocol: TCP
+          resources:
+            limits:
+              cpu: {{ .Values.resources.limits.cpu }}
+              memory: {{ .Values.resources.limits.memory }}
+            requests:
+              cpu: {{ .Values.resources.requests.cpu }}
+              memory: {{ .Values.resources.requests.memory }}
+          {{- if .Values.env }}
+          env:         
+          {{- toYaml .Values.env | nindent 12 -}}
+          {{- end }}
+          {{- if .Values.volumeMounts }}
+          volumeMounts:
+          {{- toYaml .Values.volumeMounts | nindent 12 -}}
+          {{- end -}}
+      {{- if .Values.volumes }}
+      volumes:
+      {{- toYaml .Values.volumes | nindent 10 -}}
+      {{- end -}}
+
+

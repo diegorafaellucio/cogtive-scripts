@@ -1,0 +1,19 @@
+{{- if .Values.hpa.enabled }}
+apiVersion: autoscaling/v1
+kind: HorizontalPodAutoscaler
+metadata:
+  name: {{ .Chart.Name }}
+  labels:
+    app: {{ .Chart.Name }}
+    chart: {{ .Chart.Version }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: {{ .Chart.Name }}
+  minReplicas: {{ .Values.replicaCount }}
+  maxReplicas: {{ .Values.hpa.maxReplicas }}
+  targetCPUUtilizationPercentage: {{ .Values.hpa.CpuPercentage }}
+{{- end }}

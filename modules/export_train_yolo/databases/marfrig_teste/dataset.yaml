@@ -1,0 +1,7 @@
+names:
+  0: person
+  1: porta_aberta
+  2: porta_fechada
+path: /home/diego-rafael-lucio/Nextcloud/8TB/PROJECTS/PycharmProjects/COGTIVE/scripts/modules/export_train_yolo/databases/marfrig_teste
+train: train.txt
+val: val.txt
