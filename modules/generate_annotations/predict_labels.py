@@ -43,13 +43,13 @@ def process_images_in_batches(model, images_folder, batch_size=8, save_txt=True,
 
 def main():
     # Load model
-    model_path = "/home/diego/projects/COGTIVE/aivision-models/BETTER_BEEF_2.0/2.0/trains/nano/416/runs/detect/train_no_augmentatio_no_erase_and_no_crop_fraction_no_scale_no_translate_4_classes/weights/best.pt"
+    model_path = "/home/diego/2TB/yolo/Trains/runs/ecotrace_bruise_bm_9.0+pgo_1.0_416_small_sgd_normalizado/weights/best.pt"
     model = YOLO(model_path)
     
     # Set model to use less memory
     model.model.eval()  # Set to evaluation mode
     
-    images_folder = "/home/diego/Downloads/frames_validation (1)/frames_validation"
+    images_folder = "/home/diego/bts/IMAGES"
     
     # Process images in smaller batches (adjust batch_size based on your available memory)
     process_images_in_batches(

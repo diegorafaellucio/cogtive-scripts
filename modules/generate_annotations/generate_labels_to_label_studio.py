@@ -4,15 +4,18 @@ import cv2
 import tqdm
 
 # 🚀 CONFIGURATION
-image_dir = "/home/diego/Downloads/frames_validation (1)/frames_validation"
+image_dir = "/home/diego/bts/IMAGES"
 yolo_output_dir = "runs/detect/predict/labels"
 output_json_prefix = "preannotations_batch"
-batch_size = 50
+batch_size = 20000
 
 # Class mapping (YOLO class ID → Label Studio label)
 CLASS_MAPPING = {
-    0: "meat",
-    1: "person"
+    0: "FALHA",
+    1: "LEVE",
+    2: "MODERADA",
+    3: "GRAVE",
+    4: "GRAVE_ABSCESSO"
 }
 
 def save_batch(annotations, batch_number):
@@ -37,7 +40,7 @@ print(f"📦 Creating batches of {batch_size} images each")
 for txt_file in tqdm.tqdm(txt_files, desc="Processing annotations"):
     # Get corresponding image file path
     image_filename = txt_file.replace(".txt", ".jpg")
-    image_path = f"/data/upload/2/{image_filename}"
+    image_path = f"/data/local-files?d=suporte_cliente_datasets/BOVINOS/LABEL_STUDIO/BTS_ABCESSO/{image_filename}"
     local_image_path = os.path.join(image_dir, image_filename)
 
     # Load image to get dimensions

@@ -4,8 +4,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 # ⚙️ CONFIGURAÇÃO
-image_dir = "/home/diego/Downloads/frames_validation (1)/frames_validation"
-upload_url = "https://internal-label.cogtive.com/api/projects/24/import"
+image_dir = "/home/diego/2TB/datasets/COGTIVE/KOVI/IMAGES"
+upload_url = "https://internal-label.cogtive.com/api/projects/25/import"
 auth_token = "a27c0b74353fe5f041d9d54d8323d8dfb3457c64"
 batch_size = 50
 max_threads = 10  # número de uploads em paralelo
@@ -30,7 +30,7 @@ def upload_image(filepath):
         return False
 
 # 🔍 Lista de imagens
-images = [os.path.join(image_dir, f) for f in os.listdir(image_dir) if f.endswith(".jpg")]
+images = [os.path.join(image_dir, f) for f in os.listdir(image_dir) if f.endswith(".jpeg")]
 print(f"🔍 Total de imagens: {len(images)}")
 
 # 🚀 Upload em lotes com paralelismo

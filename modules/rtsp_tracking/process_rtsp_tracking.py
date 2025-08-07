@@ -244,7 +244,7 @@ def process_rtsp_for_tracking(rtsp_url, tracking_url, template_path, delay=0.1, 
 def main():
     parser = argparse.ArgumentParser(description="Process RTSP stream for tracking")
     # parser.add_argument("--rtsp", default="rtsp://34.194.31.98:8554/live/liveStream_UQEM3803255DY_0_0", help="RTSP stream URL")
-    parser.add_argument("--rtsp", default="/home/diego/Downloads/gravacao_2025-06-24_14-21-51 (1).mp4", help="RTSP stream URL")
+    parser.add_argument("--rtsp", default="//home/diego/2TB/videos/cogtive/betterbeef/gravacao_2025-06-24_14-21-51.mp4", help="RTSP stream URL")
     parser.add_argument("--url", default="http://127.0.0.1:8000/tracker/track",
                         help="URL of the tracking endpoint")
     parser.add_argument("--template", help="Path to template JSON file", default="/home/diego/Projects/COGTIVE/aivision-core/data/json/new_sample_request_better_beef_workstation_from_rodrigo_updated.json")
