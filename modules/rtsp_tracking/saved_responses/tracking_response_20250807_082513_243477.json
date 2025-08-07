@@ -1,0 +1,1150 @@
+{
+    "client_id": "betterbeef",
+    "frame_id": "f8911ff4-5220-5992-bb06-edcc064e44d7",
+    "tracker_response": {
+        "status": "success",
+        "clientId": "betterbeef",
+        "frameId": "f8911ff4-5220-5992-bb06-edcc064e44d7",
+        "frameTimestamp": "2025-08-07T08:25:10.397Z",
+        "processTimestamp": "2025-08-07T08:25:10.397Z",
+        "detections": [
+            {
+                "classLabel": "PERSON",
+                "startTimestamp": "2025-08-07T08:25:10.397Z",
+                "endTimestamp": "2025-08-07T08:25:10.397Z",
+                "workstations": [
+                    {
+                        "workstationName": "EF1",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF2",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF3",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF4",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF6",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF7",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF8",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF5",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "classLabel": "MEAT",
+                "startTimestamp": "2025-08-07T08:25:10.397Z",
+                "endTimestamp": "2025-08-07T08:25:10.397Z",
+                "workstations": [
+                    {
+                        "workstationName": "EF1",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF7",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 1
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF2",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF3",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF4",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF5",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF6",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "workstationName": "EF8",
+                        "modelName": "BETTERBEEF",
+                        "counterSince": "2025-08-07T08:25:10.397Z",
+                        "regionsOfInterests": [
+                            {
+                                "regionName": "mesa_de_trabalho",
+                                "modes": [
+                                    {
+                                        "key": "instantaneous",
+                                        "Value": 0
+                                    },
+                                    {
+                                        "key": "accumulated",
+                                        "Value": 0
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "trackedObjects": [
+        {
+            "label": "PERSON",
+            "confidence": 0.9023442268371582,
+            "topleft": {
+                "x": 0,
+                "y": 192
+            },
+            "bottomright": {
+                "x": 193,
+                "y": 315
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                0,
+                192,
+                193,
+                123
+            ],
+            "in_region": false,
+            "tracking_id": "1",
+            "age": 10,
+            "estimated_box": {
+                "x": 0,
+                "y": 191,
+                "width": 192,
+                "height": 122
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8943573832511902,
+            "topleft": {
+                "x": 1519,
+                "y": 873
+            },
+            "bottomright": {
+                "x": 1799,
+                "y": 1038
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1519,
+                873,
+                280,
+                165
+            ],
+            "in_region": false,
+            "tracking_id": "0",
+            "age": 10,
+            "estimated_box": {
+                "x": 1518,
+                "y": 872,
+                "width": 280,
+                "height": 165
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8616084456443787,
+            "topleft": {
+                "x": 259,
+                "y": 112
+            },
+            "bottomright": {
+                "x": 512,
+                "y": 276
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                259,
+                112,
+                253,
+                164
+            ],
+            "in_region": false,
+            "tracking_id": "2",
+            "age": 10,
+            "estimated_box": {
+                "x": 258,
+                "y": 111,
+                "width": 252,
+                "height": 164
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8545700311660767,
+            "topleft": {
+                "x": 1509,
+                "y": 81
+            },
+            "bottomright": {
+                "x": 1865,
+                "y": 282
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1509,
+                81,
+                356,
+                201
+            ],
+            "in_region": false,
+            "tracking_id": "7",
+            "age": 10,
+            "estimated_box": {
+                "x": 1509,
+                "y": 80,
+                "width": 355,
+                "height": 201
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8422638773918152,
+            "topleft": {
+                "x": 1165,
+                "y": 26
+            },
+            "bottomright": {
+                "x": 1432,
+                "y": 234
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1165,
+                26,
+                267,
+                208
+            ],
+            "in_region": false,
+            "tracking_id": "3",
+            "age": 10,
+            "estimated_box": {
+                "x": 1165,
+                "y": 25,
+                "width": 266,
+                "height": 208
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.829578161239624,
+            "topleft": {
+                "x": 624,
+                "y": 902
+            },
+            "bottomright": {
+                "x": 864,
+                "y": 1075
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                624,
+                902,
+                240,
+                173
+            ],
+            "in_region": false,
+            "tracking_id": "4",
+            "age": 10,
+            "estimated_box": {
+                "x": 624,
+                "y": 901,
+                "width": 240,
+                "height": 173
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8196841478347778,
+            "topleft": {
+                "x": 115,
+                "y": 854
+            },
+            "bottomright": {
+                "x": 439,
+                "y": 1068
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                115,
+                854,
+                324,
+                214
+            ],
+            "in_region": false,
+            "tracking_id": "5",
+            "age": 10,
+            "estimated_box": {
+                "x": 115,
+                "y": 854,
+                "width": 323,
+                "height": 214
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8068003058433533,
+            "topleft": {
+                "x": 611,
+                "y": 52
+            },
+            "bottomright": {
+                "x": 847,
+                "y": 251
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                611,
+                52,
+                236,
+                199
+            ],
+            "in_region": false,
+            "tracking_id": "9",
+            "age": 10,
+            "estimated_box": {
+                "x": 610,
+                "y": 51,
+                "width": 236,
+                "height": 198
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.8032642006874084,
+            "topleft": {
+                "x": 1053,
+                "y": 892
+            },
+            "bottomright": {
+                "x": 1309,
+                "y": 1059
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1053,
+                892,
+                256,
+                167
+            ],
+            "in_region": false,
+            "tracking_id": "8",
+            "age": 10,
+            "estimated_box": {
+                "x": 1053,
+                "y": 891,
+                "width": 256,
+                "height": 168
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.779679536819458,
+            "topleft": {
+                "x": 851,
+                "y": 509
+            },
+            "bottomright": {
+                "x": 986,
+                "y": 622
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                851,
+                509,
+                135,
+                113
+            ],
+            "in_region": false,
+            "tracking_id": "6",
+            "age": 10,
+            "estimated_box": {
+                "x": 852,
+                "y": 509,
+                "width": 135,
+                "height": 113
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.745447039604187,
+            "topleft": {
+                "x": 1202,
+                "y": 441
+            },
+            "bottomright": {
+                "x": 1266,
+                "y": 540
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1202,
+                441,
+                64,
+                99
+            ],
+            "in_region": false,
+            "tracking_id": "10",
+            "age": 10,
+            "estimated_box": {
+                "x": 1203,
+                "y": 441,
+                "width": 63,
+                "height": 98
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.6396519541740417,
+            "topleft": {
+                "x": 1328,
+                "y": 507
+            },
+            "bottomright": {
+                "x": 1541,
+                "y": 703
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1328,
+                507,
+                213,
+                196
+            ],
+            "in_region": false,
+            "tracking_id": "15",
+            "age": 10,
+            "estimated_box": {
+                "x": 1328,
+                "y": 506,
+                "width": 215,
+                "height": 196
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.6274572610855103,
+            "topleft": {
+                "x": 1039,
+                "y": 532
+            },
+            "bottomright": {
+                "x": 1237,
+                "y": 650
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1039,
+                532,
+                198,
+                118
+            ],
+            "in_region": false,
+            "tracking_id": null
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.5933826565742493,
+            "topleft": {
+                "x": 386,
+                "y": 316
+            },
+            "bottomright": {
+                "x": 470,
+                "y": 435
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                386,
+                316,
+                84,
+                119
+            ],
+            "in_region": false,
+            "tracking_id": "22",
+            "age": 10,
+            "estimated_box": {
+                "x": 388,
+                "y": 317,
+                "width": 82,
+                "height": 117
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.586776614189148,
+            "topleft": {
+                "x": 0,
+                "y": 792
+            },
+            "bottomright": {
+                "x": 132,
+                "y": 922
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                0,
+                792,
+                132,
+                130
+            ],
+            "in_region": false,
+            "tracking_id": "11",
+            "age": 10,
+            "estimated_box": {
+                "x": 0,
+                "y": 790,
+                "width": 131,
+                "height": 130
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.5280788540840149,
+            "topleft": {
+                "x": 1600,
+                "y": 509
+            },
+            "bottomright": {
+                "x": 1682,
+                "y": 627
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1600,
+                509,
+                82,
+                118
+            ],
+            "in_region": false,
+            "tracking_id": "26",
+            "age": 10,
+            "estimated_box": {
+                "x": 1602,
+                "y": 509,
+                "width": 80,
+                "height": 116
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.49465274810791016,
+            "topleft": {
+                "x": 381,
+                "y": 491
+            },
+            "bottomright": {
+                "x": 477,
+                "y": 690
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                381,
+                491,
+                96,
+                199
+            ],
+            "in_region": false,
+            "tracking_id": "23",
+            "age": 10,
+            "estimated_box": {
+                "x": 382,
+                "y": 495,
+                "width": 95,
+                "height": 195
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.46748870611190796,
+            "topleft": {
+                "x": 1506,
+                "y": 473
+            },
+            "bottomright": {
+                "x": 1584,
+                "y": 550
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1506,
+                473,
+                78,
+                77
+            ],
+            "in_region": false,
+            "tracking_id": "18",
+            "age": 10,
+            "estimated_box": {
+                "x": 1507,
+                "y": 472,
+                "width": 78,
+                "height": 77
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.4571295976638794,
+            "topleft": {
+                "x": 553,
+                "y": 491
+            },
+            "bottomright": {
+                "x": 793,
+                "y": 589
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                553,
+                491,
+                240,
+                98
+            ],
+            "in_region": false,
+            "tracking_id": "28",
+            "age": 11,
+            "estimated_box": {
+                "x": 545,
+                "y": 490,
+                "width": 251,
+                "height": 99
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.4550543427467346,
+            "topleft": {
+                "x": 1645,
+                "y": 627
+            },
+            "bottomright": {
+                "x": 1723,
+                "y": 853
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1645,
+                627,
+                78,
+                226
+            ],
+            "in_region": false,
+            "tracking_id": "24",
+            "age": 10,
+            "estimated_box": {
+                "x": 1645,
+                "y": 623,
+                "width": 77,
+                "height": 228
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.41084203124046326,
+            "topleft": {
+                "x": 623,
+                "y": 491
+            },
+            "bottomright": {
+                "x": 795,
+                "y": 580
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                623,
+                491,
+                172,
+                89
+            ],
+            "in_region": false,
+            "tracking_id": null
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3731302320957184,
+            "topleft": {
+                "x": 1705,
+                "y": 307
+            },
+            "bottomright": {
+                "x": 1778,
+                "y": 459
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1705,
+                307,
+                73,
+                152
+            ],
+            "in_region": false,
+            "tracking_id": "19",
+            "age": 10,
+            "estimated_box": {
+                "x": 1705,
+                "y": 306,
+                "width": 72,
+                "height": 152
+            }
+        },
+        {
+            "label": "PERSON",
+            "confidence": 0.36573338508605957,
+            "topleft": {
+                "x": 1831,
+                "y": 796
+            },
+            "bottomright": {
+                "x": 1920,
+                "y": 928
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1831,
+                796,
+                89,
+                132
+            ],
+            "in_region": false,
+            "tracking_id": null
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3638852834701538,
+            "topleft": {
+                "x": 1237,
+                "y": 666
+            },
+            "bottomright": {
+                "x": 1321,
+                "y": 890
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1237,
+                666,
+                84,
+                224
+            ],
+            "in_region": false,
+            "tracking_id": "33",
+            "age": 9,
+            "estimated_box": {
+                "x": 1235,
+                "y": 665,
+                "width": 87,
+                "height": 230
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3297523558139801,
+            "topleft": {
+                "x": 1035,
+                "y": 532
+            },
+            "bottomright": {
+                "x": 1238,
+                "y": 702
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1035,
+                532,
+                203,
+                170
+            ],
+            "in_region": false,
+            "tracking_id": "12",
+            "age": 14,
+            "estimated_box": {
+                "x": 1036,
+                "y": 531,
+                "width": 204,
+                "height": 175
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3249708414077759,
+            "topleft": {
+                "x": 109,
+                "y": 518
+            },
+            "bottomright": {
+                "x": 217,
+                "y": 639
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                109,
+                518,
+                108,
+                121
+            ],
+            "in_region": false,
+            "tracking_id": "13",
+            "age": 10,
+            "estimated_box": {
+                "x": 109,
+                "y": 519,
+                "width": 108,
+                "height": 118
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3181057572364807,
+            "topleft": {
+                "x": 1597,
+                "y": 448
+            },
+            "bottomright": {
+                "x": 1722,
+                "y": 524
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1597,
+                448,
+                125,
+                76
+            ],
+            "in_region": false,
+            "tracking_id": "25",
+            "age": 11,
+            "estimated_box": {
+                "x": 1598,
+                "y": 448,
+                "width": 123,
+                "height": 75
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.30724626779556274,
+            "topleft": {
+                "x": 1676,
+                "y": 456
+            },
+            "bottomright": {
+                "x": 1778,
+                "y": 635
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1676,
+                456,
+                102,
+                179
+            ],
+            "in_region": false,
+            "tracking_id": null
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.3050786852836609,
+            "topleft": {
+                "x": 1010,
+                "y": 235
+            },
+            "bottomright": {
+                "x": 1084,
+                "y": 429
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1010,
+                235,
+                74,
+                194
+            ],
+            "in_region": false,
+            "tracking_id": "21",
+            "age": 10,
+            "estimated_box": {
+                "x": 1010,
+                "y": 235,
+                "width": 73,
+                "height": 194
+            }
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.29173144698143005,
+            "topleft": {
+                "x": 1220,
+                "y": 680
+            },
+            "bottomright": {
+                "x": 1311,
+                "y": 892
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                1220,
+                680,
+                91,
+                212
+            ],
+            "in_region": false,
+            "tracking_id": null
+        },
+        {
+            "label": "MEAT",
+            "confidence": 0.2734528183937073,
+            "topleft": {
+                "x": 624,
+                "y": 559
+            },
+            "bottomright": {
+                "x": 780,
+                "y": 653
+            },
+            "model_name": "BETTERBEEF",
+            "box": [
+                624,
+                559,
+                156,
+                94
+            ],
+            "in_region": false,
+            "tracking_id": "16",
+            "age": 17,
+            "estimated_box": {
+                "x": 631,
+                "y": 569,
+                "width": 148,
+                "height": 93
+            }
+        }
+    ]
+}
