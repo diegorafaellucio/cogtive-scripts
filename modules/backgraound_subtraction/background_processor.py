@@ -64,6 +64,10 @@ class BackgroundProcessor:
         """Preprocess frame before background subtraction."""
         processed = frame.copy()
         
+        # H.264-specific preprocessing to reduce compression artifacts
+        # Apply bilateral filter to reduce compression noise while preserving edges
+        processed = cv2.bilateralFilter(processed, d=9, sigmaColor=75, sigmaSpace=75)
+        
         # Resize if needed
         if self.config.video.resize_factor != 1.0:
             h, w = processed.shape[:2]
@@ -73,11 +77,13 @@ class BackgroundProcessor:
             )
             processed = cv2.resize(processed, new_size)
         
-        # Apply Gaussian blur for noise reduction
+        # Apply stronger Gaussian blur for H.264 artifacts (after resize to be more efficient)
         if self.config.processing.use_gaussian_blur:
+            # Use larger kernel for H.264 noise suppression
+            kernel_size = max(7, self.config.processing.blur_kernel_size)
             processed = cv2.GaussianBlur(
                 processed,
-                (self.config.processing.blur_kernel_size,) * 2,
+                (kernel_size,) * 2,
                 0
             )
         
@@ -116,16 +122,16 @@ class BackgroundProcessor:
         # Apply Gaussian blur to reduce noise
         diff_gray = cv2.GaussianBlur(diff_gray, (5, 5), 0)
         
-        # Use balanced threshold - not too sensitive
-        threshold_value = 25  # Balanced threshold
+        # Balanced threshold for H.264: detect objects while reducing compression noise
+        threshold_value = 35  # Balanced compromise: reduced from 70 to detect more objects
         _, foreground_mask = cv2.threshold(diff_gray, threshold_value, 255, cv2.THRESH_BINARY)
         
         # Better morphology to clean up noise while preserving real objects
-        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))
-        # Remove small noise
+        kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (3, 3))  # Smaller kernel to preserve objects
+        # Remove small noise but preserve real objects
         foreground_mask = cv2.morphologyEx(foreground_mask, cv2.MORPH_OPEN, kernel, iterations=2)
         # Fill gaps in objects
-        foreground_mask = cv2.morphologyEx(foreground_mask, cv2.MORPH_CLOSE, kernel, iterations=2)
+        foreground_mask = cv2.morphologyEx(foreground_mask, cv2.MORPH_CLOSE, kernel, iterations=3)
         
         return foreground_mask
     

@@ -198,8 +198,8 @@ class BackgroundVisualizationRenderer:
         filepath = self.frames_dir / filename
         cv2.imwrite(str(filepath), frame)
     
-    def display_frame(self, results: Dict[str, Any]) -> bool:
-        """Display frame and handle user input. Returns False if user wants to quit."""
+    def display_frame(self, results: Dict[str, Any], step_by_step_mode: bool = False) -> str:
+        """Display frame and handle user input. Returns control signal."""
         display_frame = self.create_multi_view_display(results)
         
         # Resize display if needed
@@ -214,26 +214,51 @@ class BackgroundVisualizationRenderer:
             new_height = int(display_frame.shape[0] * scale)
             display_frame = cv2.resize(display_frame, (new_width, new_height))
         
+        # Add mode indicator to the display
+        mode_text = "STEP-BY-STEP" if step_by_step_mode else "CONTINUOUS"
+        cv2.putText(display_frame, f"Mode: {mode_text}", (10, display_frame.shape[0] - 10), 
+                   self.font, 0.6, self.colors['fps_text'], 2)
+        
         cv2.imshow('Background Subtraction', display_frame)
         
         # Save frame if configured
         if self.config.visualization.save_frames:
             self.save_frame(display_frame, results['frame_number'])
         
-        # Handle keyboard input
-        key = cv2.waitKey(1) & 0xFF
-        
-        if key == ord('q') or key == 27:  # 'q' or ESC
-            return False
-        elif key == ord('s'):  # Save current frame
-            filename = f"manual_save_frame_{results['frame_number']}.png"
-            cv2.imwrite(filename, display_frame)
-            self.logger.info(f"Frame saved as {filename}")
-        elif key == ord('p'):  # Pause/unpause
-            self.logger.info("Paused. Press any key to continue...")
-            cv2.waitKey(0)
-        
-        return True
+        # Handle keyboard input based on mode
+        if step_by_step_mode:
+            # In step-by-step mode, wait for specific keys
+            while True:
+                key = cv2.waitKey(0) & 0xFF  # Wait indefinitely for key press
+                
+                if key == ord('q') or key == 27:  # 'q' or ESC
+                    return "quit"
+                elif key == ord(' '):  # Space - advance to next frame
+                    return "continue"
+                elif key == ord('c'):  # 'c' - switch to continuous mode
+                    return "continuous"
+                elif key == ord('s'):  # Save current frame
+                    filename = f"manual_save_frame_{results['frame_number']}.png"
+                    cv2.imwrite(filename, display_frame)
+                    self.logger.info(f"Frame saved as {filename}")
+                    # Stay in the loop to wait for next action
+                else:
+                    # Show help for invalid keys
+                    print("Invalid key. Use: SPACE (next), 'c' (continuous), 's' (save), 'q' (quit)")
+        else:
+            # In continuous mode, check for mode switching
+            key = cv2.waitKey(1) & 0xFF
+            
+            if key == ord('q') or key == 27:  # 'q' or ESC
+                return "quit"
+            elif key == ord('r'):  # 'r' - switch to step mode
+                return "step"
+            elif key == ord('s'):  # Save current frame
+                filename = f"manual_save_frame_{results['frame_number']}.png"
+                cv2.imwrite(filename, display_frame)
+                self.logger.info(f"Frame saved as {filename}")
+            
+            return "continue"
 
 
 class StatisticsReporter:

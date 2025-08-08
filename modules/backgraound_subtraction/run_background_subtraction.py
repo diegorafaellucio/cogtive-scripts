@@ -54,18 +54,18 @@ def main():
         config.video.background_image_path = background_image
         
         # Optimize parameters for balanced motion detection
-        config.bg_subtractor.var_threshold = 25.0  # Balanced threshold to reduce noise
+        config.bg_subtractor.var_threshold = 50.0  # Increased from 25.0 to reduce false positives
         config.bg_subtractor.detect_shadows = True
         
-        # Balanced processing settings - reduce false positives
-        config.processing.min_contour_area = 150   # Higher minimum to filter small noise
+        # More conservative processing settings - reduce false positives
+        config.processing.min_contour_area = 200   # Higher minimum to filter small noise
         config.processing.max_contour_area = 15000 # Reasonable maximum for objects
         config.processing.use_morphology = True
-        config.processing.kernel_size = (3, 3)     # Standard kernel size
-        config.processing.opening_iterations = 2   # More noise removal
+        config.processing.kernel_size = (5, 5)     # Larger kernel size for better noise removal
+        config.processing.opening_iterations = 3   # More aggressive noise removal
         config.processing.closing_iterations = 2   # Better gap filling
         config.processing.use_gaussian_blur = True # Enable blur to reduce noise
-        config.processing.blur_kernel_size = 5     # Stronger blur for noise reduction
+        config.processing.blur_kernel_size = 7     # Stronger blur for noise reduction
         
         # Visualization settings
         config.visualization.show_original = True
@@ -81,8 +81,10 @@ def main():
         print("🚀 Starting background subtraction processing...")
         print("Controls:")
         print("  • Press 'q' or ESC to quit")
-        print("  • Press 'p' to pause/unpause")
+        print("  • Press 'SPACE' to process next frame (step-by-step mode)")
+        print("  • Press 'c' to continue automatic processing")
         print("  • Press 's' to save current frame")
+        print("  • Press 'r' to reset to step-by-step mode")
         print("-" * 50)
         
         # Process video
@@ -95,6 +97,8 @@ def main():
             stats_reporter = StatisticsReporter()
             
             frame_count = 0
+            step_by_step_mode = True  # Start in step-by-step mode
+            print("🔄 Started in STEP-BY-STEP mode - press SPACE to advance frames")
             
             while True:
                 ret, frame = processor.cap.read()
@@ -104,17 +108,25 @@ def main():
                     break
                 
                 frame_count += 1
+                print(f"🎬 Processing frame {frame_count}...")
                 
                 # Process frame
                 results = processor.processor.process_frame(frame)
                 
-                # Display results
-                if not renderer.display_frame(results):
+                # Display results with step-by-step control
+                continue_processing = renderer.display_frame(results, step_by_step_mode)
+                if continue_processing == "quit":
                     print("🛑 Processing stopped by user")
                     break
+                elif continue_processing == "continuous":
+                    step_by_step_mode = False
+                    print("▶️ Switched to CONTINUOUS mode")
+                elif continue_processing == "step":
+                    step_by_step_mode = True
+                    print("🔄 Switched to STEP-BY-STEP mode")
                 
-                # Print progress every 100 frames
-                if frame_count % 100 == 0:
+                # Print progress every 100 frames in continuous mode
+                if not step_by_step_mode and frame_count % 100 == 0:
                     stats = processor.processor.get_statistics()
                     print(f"📊 Processed {frame_count} frames | "
                           f"Avg FPS: {stats['avg_fps']:.2f} | "
